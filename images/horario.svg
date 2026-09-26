@@ -1,19 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 190" width="1200" height="190">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 190" width="1000" height="190">
   <defs>
     <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0d4a54"/>
       <stop offset="100%" stop-color="#1f8f8a"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="190" fill="url(#g3)"/>
-  <circle cx="90" cy="20" r="120" fill="#ffffff" opacity="0.05"/>
+  <rect width="1000" height="190" fill="url(#g3)"/>
+  <circle cx="880" cy="30" r="105" fill="#ffffff" opacity="0.06"/>
+  <circle cx="950" cy="175" r="60" fill="#ffffff" opacity="0.05"/>
   <!-- relógio -->
-  <g transform="translate(95,38)">
-    <circle cx="57" cy="57" r="55" fill="none" stroke="#8ed3cb" stroke-width="8"/>
-    <line x1="57" y1="57" x2="57" y2="22" stroke="#ffffff" stroke-width="7" stroke-linecap="round"/>
-    <line x1="57" y1="57" x2="86" y2="72" stroke="#8ed3cb" stroke-width="7" stroke-linecap="round"/>
-    <circle cx="57" cy="57" r="7" fill="#ffffff"/>
+  <g transform="translate(48,48)">
+    <circle cx="45" cy="45" r="42" fill="none" stroke="#8ed3cb" stroke-width="7"/>
+    <line x1="45" y1="45" x2="45" y2="18" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+    <line x1="45" y1="45" x2="68" y2="58" stroke="#8ed3cb" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="45" cy="45" r="6" fill="#ffffff"/>
   </g>
-  <text x="240" y="88" font-family="Verdana, Geneva, sans-serif" font-size="38" font-weight="bold" fill="#ffffff">Horário de Atendimento</text>
-  <text x="242" y="124" font-family="Verdana, Geneva, sans-serif" font-size="18" fill="#cfe9e6">Serviços, horários e valores transparentes</text>
+  <text x="175" y="85" font-family="Verdana, Geneva, sans-serif" font-size="34" font-weight="bold" fill="#ffffff">Horário de Atendimento</text>
+  <text x="177" y="117" font-family="Verdana, Geneva, sans-serif" font-size="16" fill="#cfe9e6">Serviços, horários e valores transparentes</text>
 </svg>
