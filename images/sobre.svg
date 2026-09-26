@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 190" width="1200" height="190">
+  <defs>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#14524f"/>
+      <stop offset="100%" stop-color="#2a8c93"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="190" fill="url(#g2)"/>
+  <circle cx="1120" cy="160" r="110" fill="#ffffff" opacity="0.06"/>
+  <!-- equipe: 3 pessoas -->
+  <g transform="translate(95,50)" fill="#8ed3cb">
+    <circle cx="30" cy="22" r="19"/>
+    <path d="M0 78c0-17 13-30 30-30s30 13 30 30z"/>
+    <g transform="translate(70,12) scale(1.25)" opacity="0.75">
+      <circle cx="30" cy="22" r="19"/>
+      <path d="M0 78c0-17 13-30 30-30s30 13 30 30z"/>
+    </g>
+    <g transform="translate(148,20)" opacity="0.55">
+      <circle cx="30" cy="22" r="19"/>
+      <path d="M0 78c0-17 13-30 30-30s30 13 30 30z"/>
+    </g>
+  </g>
+  <text x="400" y="88" font-family="Verdana, Geneva, sans-serif" font-size="38" font-weight="bold" fill="#ffffff">Sobre a Clínica</text>
+  <text x="402" y="124" font-family="Verdana, Geneva, sans-serif" font-size="18" fill="#cfe9e6">Mais de 20 anos de história e cuidado</text>
+</svg>

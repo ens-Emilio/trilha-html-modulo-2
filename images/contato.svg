@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 190" width="1200" height="190">
+  <defs>
+    <linearGradient id="g4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#124f56"/>
+      <stop offset="100%" stop-color="#25938c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="190" fill="url(#g4)"/>
+  <circle cx="1090" cy="30" r="115" fill="#ffffff" opacity="0.06"/>
+  <!-- pin de localização + telefone -->
+  <g transform="translate(88,35)">
+    <path d="M55 0C24 0 0 24 0 54c0 40 55 96 55 96s55-56 55-96C110 24 86 0 55 0z" fill="#8ed3cb"/>
+    <circle cx="55" cy="52" r="21" fill="#0f5c58"/>
+  </g>
+  <text x="240" y="88" font-family="Verdana, Geneva, sans-serif" font-size="38" font-weight="bold" fill="#ffffff">Fale Conosco</text>
+  <text x="242" y="124" font-family="Verdana, Geneva, sans-serif" font-size="18" fill="#cfe9e6">Telefones, endereço, mapa e formulário</text>
+</svg>

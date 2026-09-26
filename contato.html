@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Telefones, endereço, mapa e formulário de contato da Clínica Bem Viver em São Paulo.">
+    <title>Clínica Bem Viver - Contato</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <!-- ==================== MENU ==================== -->
+        <nav class="menu">
+            <h3>Navegação</h3>
+            <ul>
+                <li><a href="index.html">Página Principal</a></li>
+                <li><a href="sobre.html">Sobre a clínica</a></li>
+                <li><a href="horario.html">Horário de Atendimento</a></li>
+                <li><a class="ativo" href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+
+        <div class="main">
+
+            <!-- ==================== HEADER ==================== -->
+            <header class="header">
+                <img src="images/contato.svg" alt="Ilustração de um marcador de mapa representando a localização da clínica">
+            </header>
+
+            <!-- ==================== CONTENT ==================== -->
+            <main class="content">
+                <h1>Fale Conosco</h1>
+
+                <p>
+                    Tem dúvidas sobre agendamento, convênios ou valores? Nossa recepção
+                    atende de <strong>segunda a sábado</strong>. Escolha o canal que preferir:
+                    estamos prontos para ajudar. <mark>Respondemos em até 1 dia útil.</mark>
+                </p>
+
+                <h2>Telefones de contato</h2>
+
+                <ul>
+                    <li>
+                        <strong>Celular:</strong>
+                        <a href="tel:+5511999998888">(11) 99999-8888</a>
+                        &mdash; ligações e mensagens de texto
+                    </li>
+                    <li>
+                        <strong>WhatsApp:</strong>
+                        <a href="https://wa.me/5511999998888" target="_blank" rel="noopener">(11) 99999-8888</a>
+                        &mdash; agendamento rápido e envio de exames
+                    </li>
+                    <li>
+                        <strong>Telefone fixo:</strong>
+                        <a href="tel:+551133334444">(11) 3333-4444</a>
+                        &mdash; recepção e convênios
+                    </li>
+                </ul>
+
+                <h2>Endereço completo</h2>
+
+                <address>
+                    <strong>Clínica Bem Viver</strong><br>
+                    Avenida Paulista, 1578 &mdash; 5&ordm; andar, sala 502<br>
+                    Bairro Bela Vista<br>
+                    São Paulo &mdash; SP<br>
+                    CEP 01310-200<br>
+                    Brasil
+                </address>
+
+                <p>
+                    <small>
+                        <strong>Como chegar:</strong> a 200 metros da estação
+                        <abbr title="Estação da linha amarela do metrô de São Paulo">Trianon-Masp</abbr>
+                        (linha 4 - Amarela). Há estacionamento conveniado no prédio ao lado.
+                    </small>
+                </p>
+
+                <h2>Localização no mapa</h2>
+
+                <figure>
+                    <iframe
+                        class="mapa"
+                        src="https://www.google.com/maps?q=Avenida+Paulista+1578+Sao+Paulo&output=embed"
+                        title="Mapa do Google mostrando a localização da Clínica Bem Viver na Avenida Paulista, 1578"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        allowfullscreen>
+                        Seu navegador não suporta iframes.
+                        <a href="https://www.google.com/maps?q=Avenida+Paulista+1578+Sao+Paulo" target="_blank" rel="noopener">
+                            Abra o mapa em uma nova aba
+                        </a>.
+                    </iframe>
+                    <figcaption>
+                        <small>Sede da Clínica Bem Viver &mdash; Avenida Paulista, 1578, São Paulo - SP.</small>
+                    </figcaption>
+                </figure>
+
+                <h2>Formulário de contato</h2>
+
+                <p>
+                    Preencha os campos abaixo e nossa equipe entrará em contato. Os campos
+                    marcados com <strong>*</strong> são obrigatórios.
+                </p>
+
+                <form action="#" method="post">
+
+                    <fieldset>
+                        <legend>Seus dados</legend>
+
+                        <label for="nome">Nome completo *</label>
+                        <input type="text" id="nome" name="nome" placeholder="Ex.: Maria da Silva"
+                               maxlength="80" required>
+
+                        <label for="email">E-mail *</label>
+                        <input type="email" id="email" name="email" placeholder="voce@exemplo.com"
+                               required>
+
+                        <label for="telefone">Telefone (opcional)</label>
+                        <input type="tel" id="telefone" name="telefone"
+                               placeholder="(11) 99999-8888" pattern="\([0-9]{2}\) [0-9]{4,5}-[0-9]{4}">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Sua mensagem</legend>
+
+                        <label for="assunto">Assunto *</label>
+                        <input type="text" id="assunto" name="assunto"
+                               placeholder="Ex.: Agendamento de consulta" maxlength="100" required>
+
+                        <label for="mensagem">Mensagem *</label>
+                        <textarea id="mensagem" name="mensagem" rows="6"
+                                  placeholder="Descreva sua dúvida ou o motivo do contato..."
+                                  required></textarea>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Preferências de atendimento</legend>
+
+                        <label for="especialidade">Especialidade de interesse</label>
+                        <select id="especialidade" name="especialidade">
+                            <option value="">Selecione uma opção</option>
+                            <option value="clinica-geral">Clínica geral</option>
+                            <option value="psicologia">Psicologia</option>
+                            <option value="pediatria">Pediatria</option>
+                            <option value="oftalmologia">Oftalmologia</option>
+                        </select>
+
+                        <label for="data">Data de preferência para o retorno</label>
+                        <input type="date" id="data" name="data">
+
+                        <label for="horario-pref">Período de preferência</label>
+                        <select id="horario-pref" name="horario-pref">
+                            <option value="manha">Manhã (08h - 12h)</option>
+                            <option value="tarde">Tarde (12h - 19h)</option>
+                            <option value="sabado">Sábado</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Como prefere ser contatado?</legend>
+
+                        <input type="radio" id="contato-email" name="via-contato" value="email" checked>
+                        <label for="contato-email">Por e-mail</label><br>
+
+                        <input type="radio" id="contato-telefone" name="via-contato" value="telefone">
+                        <label for="contato-telefone">Por telefone</label><br>
+
+                        <input type="radio" id="contato-whatsapp" name="via-contato" value="whatsapp">
+                        <label for="contato-whatsapp">Por WhatsApp</label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Autorizações</legend>
+
+                        <input type="checkbox" id="aceite" name="aceite" required>
+                        <label for="aceite">
+                            Autorizo o uso dos meus dados para retorno deste contato. *
+                        </label><br>
+
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">
+                            Quero receber o informativo mensal de saúde da clínica.
+                        </label>
+                    </fieldset>
+
+                    <button type="submit">Enviar mensagem</button>
+                    <button type="reset">Limpar formulário</button>
+
+                </form>
+
+                <p>
+                    <small>
+                        Seus dados são tratados conforme a
+                        <abbr title="Lei Geral de Proteção de Dados Pessoais, Lei nº 13.709/2018">LGPD</abbr>
+                        e utilizados exclusivamente para responder a esta solicitação.
+                    </small>
+                </p>
+
+                <p><small><a class="voltar-topo" href="#top">&uarr; Voltar ao topo</a></small></p>
+            </main>
+
+            <!-- ==================== FOOTER ==================== -->
+            <footer class="footer">
+                <h4>Clínica Bem Viver</h4>
+                <p>
+                    <abbr title="Cadastro Nacional da Pessoa Jurídica">CNPJ</abbr>:
+                    12.345.678/0001-90 &mdash; Responsável técnica:
+                    Dra. Helena Martins, <abbr title="Conselho Regional de Medicina">CRM</abbr>-SP 123456
+                </p>
+                <p>
+                    Av. Paulista, 1578 &mdash; Bela Vista, São Paulo - SP, CEP 01310-200
+                </p>
+                <p>
+                    Telefone: <a href="tel:+551133334444">(11) 3333-4444</a> &nbsp;|&nbsp;
+                    Celular: <a href="tel:+5511999998888">(11) 99999-8888</a> &nbsp;|&nbsp;
+                    WhatsApp: <a href="https://wa.me/5511999998888" target="_blank" rel="noopener">(11) 99999-8888</a>
+                </p>
+                <p>
+                    E-mail: <a href="mailto:contato@clinicabemviver.com.br">contato@clinicabemviver.com.br</a>
+                </p>
+                <hr>
+                <p>
+                    <small>
+                        &copy; 2025 Clínica Bem Viver &mdash; Todos os direitos reservados.
+                        Site desenvolvido como Desafio de Projeto do Módulo II da trilha de HTML da
+                        <abbr title="Digital Innovation One">DIO</abbr>.
+                    </small>
+                </p>
+            </footer>
+
+        </div>
+    </div>
+</body>
+</html>
